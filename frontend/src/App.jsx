@@ -6,6 +6,7 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
+import PageNotFound from "./components/PageNotFound"
 //import Robo from "./components/robo"
 import { Route, Routes } from "react-router-dom"
 
@@ -18,16 +19,18 @@ function App() {
 <>
     <div>
 <Routes>
+  <Route path="*" element={<PageNotFound/>}></Route>
   <Route path="/home" element= {<Home/> }></Route>
   <Route path="/about" element={<About/>}></Route>
   <Route path="/experience" element={<Experience/>} ></Route>
   <Route path="/projects" element={<Projects/>} ></Route>
 </Routes>
     </div>
+
     <div>
 
-      <Navbar/>
-      <Hero/>
+      {/* <Navbar/> */}
+    
     {/* <RouterProvider router={router}/> */}
 
     </div>
