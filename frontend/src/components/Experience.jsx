@@ -5,7 +5,11 @@ import React from "react"
 function Experience(){
     return(
         <>
-        <div>welcome on experience</div>
+        <div>Quelitys</div>
+        <div>
+            <h1>Full stack developer</h1>
+            
+        </div>
         </>
     )
 }
