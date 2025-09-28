@@ -7,8 +7,11 @@ import About from "./components/About"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import PageNotFound from "./components/PageNotFound"
+import RoboWidget from "./components/Robowidget"
 //import Robo from "./components/robo"
 import { Route, Routes } from "react-router-dom"
+import "./styles/robo.css";
+
 
 
 
@@ -17,7 +20,13 @@ function App() {
 
   return (
 <>
-    <div>
+     <Navbar/> 
+    < RoboWidget/>
+
+   <div style={{ backgroundColor: "#121212", minHeight: "100vh" }}>
+      {/* All your routes and components here */}
+    
+      
 <Routes>
   <Route path="*" element={<PageNotFound/>}></Route>
   <Route path="/home" element= {<Home/> }></Route>
@@ -28,10 +37,8 @@ function App() {
     </div>
 
     <div>
-
-      {/* <Navbar/> */}
     
-    {/* <RouterProvider router={router}/> */}
+ 
 
     </div>
     

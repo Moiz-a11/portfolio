@@ -2,7 +2,7 @@
 
 
 .navbar {
-   background-color: #16a34a;
+   background-color:gray;
     color: white;
 }
 
@@ -32,3 +32,7 @@ color: rgb(18, 18, 96);
     background-image: url("/image.png");
     color: white;
 } 
+
+.frnt-text{
+    font-size: 20px;
+}

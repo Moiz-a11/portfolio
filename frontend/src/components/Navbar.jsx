@@ -19,8 +19,7 @@ function Navbar() {
           <li className="me-3"><a href="/education">Education</a></li>
           <li className="me-3"><a href="/experience">Experience</a></li>
         </ul>
-        <button className="btn btn-dark">know more</button>
-      <button className="btn btn-primary">Next</button>
+ 
       </div>
       
     </>
