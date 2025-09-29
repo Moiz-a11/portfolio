@@ -4,7 +4,7 @@ import React from "react"
 
 function Experience(){
     return(
-        <>
+        <div className="exp-parent" >
         
  <h1 className="offset-2" >Full stack developer</h1>
         <div className="d-flex  flex-column align-items-center justify-content-center w-100 ">
@@ -14,7 +14,7 @@ function Experience(){
             <div className="w-50"><h2>Backend:</h2> <p  className="fw-bolder frnt-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio atque nulla placeat dolore a doloremque neque officia facilis repellat eveniet! Ipsum, modi odit a explicabo quo sit praesentium iste voluptas voluptates autem et iure laudantium? A incidunt alias repudiandae dicta distinctio commodi corrupti, tenetur voluptates ipsa inventore facere, minima molestiae vel illum atque unde dolor aliquid est quae maiores veniam sint ad nam. Iure id tempora ratione qui ipsa nam vero. Dignissimos reprehenderit numquam eaque deserunt cumque possimus dolore adipisci eius illo laborum, minus corrupti officiis quisquam quaerat eum iure quam molestias saepe praesentium sint esse necessitatibus rerum consequuntur? Eos!</p></div>
             
         </div>
-        </>
+        </div>
     )
 }
 

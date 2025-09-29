@@ -36,3 +36,34 @@ color: rgb(18, 18, 96);
 .frnt-text{
     font-size: 20px;
 }
+
+.parent{
+    padding: 20px!important;
+    color: white;
+    min-height: 100vh !important;
+
+}
+.parent-child{
+    color: white;
+}
+
+
+.card{
+    color: white !important;;
+}
+
+.cards{
+    /* background-color: #1e1e1e !important; */
+
+height: 25rem !important; ;
+width: 35rem !important; ;
+    /* padding: 150px 200px; */
+}
+
+.about-parent{
+    color: white;
+}
+
+.exp-parent{
+    color: white;
+}
