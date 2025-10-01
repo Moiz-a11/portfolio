@@ -69,6 +69,7 @@ function App() {
 }
 
 export default App;
+
 // import Hero from "./components/hero"
 // import './App.css'
 // import Navbar from "./components/Navbar"

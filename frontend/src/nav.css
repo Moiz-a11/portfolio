@@ -53,7 +53,7 @@ color: rgb(18, 18, 96);
 }
 
 .cards{
-    /* background-color: #1e1e1e !important; */
+    background-color: #1e1e1e !important;
 
 height: 25rem !important; ;
 width: 35rem !important; ;
@@ -66,4 +66,17 @@ width: 35rem !important; ;
 
 .exp-parent{
     color: white;
+}
+
+.pageNotFound{
+    color: white;
+
+}
+
+.card-img-top{
+   height: 50%;
+    width: 100%;
+
+     object-fit:cover !important;
+
 }
