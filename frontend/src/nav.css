@@ -49,17 +49,23 @@ color: rgb(18, 18, 96);
 
 
 .card{
-    color: white !important;;
+    color: white !important;
+     background-color: #1e1e1e !important;
+
+height: 25rem !important; 
+width: 35rem !important; 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+
 }
+.card:hover{
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 
-.cards{
-    background-color: #1e1e1e !important;
-
-height: 25rem !important; ;
-width: 35rem !important; ;
-    /* padding: 150px 200px; */
 }
+@keyframes myAnimation{
 
+}
 .about-parent{
     color: white;
 }
@@ -79,4 +85,15 @@ width: 35rem !important; ;
 
      object-fit:cover !important;
 
+}
+
+.tools{
+    color: rgb(22, 201, 255);
+   
+}
+
+.tools p{
+ padding: 7px;
+ border-radius: 30%;
+     border: 1px solid black;
 }

@@ -54,7 +54,7 @@ function App() {
       {/* Your content */}
       <div style={{ position: 'relative', zIndex: 2 }}>
         <Navbar />
-        
+     
         <Routes>
           <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<Home />} />
