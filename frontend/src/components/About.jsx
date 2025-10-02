@@ -8,21 +8,29 @@ import React from "react"
 
 function About(){
     return(
+        <div className="d-flex align-items-center justify-content-around vh-100 ">
+            <div className="img-container">
+                <img className="rounded img mt-5  mx-auto d-block " src="./images/its_me.jpg" alt="" />
+            </div>
     
         <div className="about-parent" >
-        <div>welcome on about</div>
+        <div><h1>About Me</h1>
+        </div>
         <div>
             <h3>Education</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, est. Perspiciatis tempora molestias tempore optio animi nemo saepe corporis officia?</p>
+            <p> Pursuing B-tech In Computer Engineering  from G.H raisoni College Of Enginnering And Management pune</p>
         </div>
-        <div>
-        <h3>Experience</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi perspiciatis officiis? Atque libero vel, nesciunt asperiores sed harum velit quam deleniti facilis praesentium? Quos perspiciatis repellat nihil pariatur inventore incidunt consequuntur, veniam minima voluptate ex quae recusandae esse, officia aut. Laudantium fuga magnam incidunt iste quod, dolorum enim placeat natus fugit aliquam aut blanditiis consequuntur explicabo corporis quaerat possimus suscipit eveniet esse molestiae voluptate earum tempora! Labore excepturi et animi illum natus, libero quas quisquam? Atque nam fuga illo asperiores harum dolores consequuntur sed molestias amet inventore, voluptates facilis, quisquam quaerat omnis mollitia fugiat beatae reprehenderit. Placeat, eaque? Impedit.</p>
+         <div>
+        <h3>Tech Ethusiast</h3>
+        <p>Mearn  Stack Developer </p>
+        <p>More Intrested In backend Development</p>
+        <p>Learning AI And ML</p>
 
         </div>
+       
 
         </div>
-        
+        </div>
     )
 }
 
