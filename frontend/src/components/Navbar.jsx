@@ -1,13 +1,6 @@
 import React from "react";
  import { Link } from "react-router-dom";
 
-// import Home from "./Home";
-// import About from "./About";
-// import Experience from "./Experience";
-// import Projects from "./Projects";
-
-// import Education from "./Education";
-
 function Navbar() {
   return (
     <>
@@ -17,14 +10,15 @@ function Navbar() {
           <li className="me-3"><a href="/home"></a></li> 
           
             <li className="me-3 name "><h2>Moiz Shaikh</h2></li>
+          <li className="me-3  "><a href="/">Home</a></li>
+
           <li className="me-3"><a href="/about">About</a></li>
           <li className="me-3">
             <Link to="/projects" className="nav-link">
              Projects
             </Link>
           </li>
-          <li className="me-3"><a href="/education">Education</a></li>
-          <li className="me-3"><a href="/experience">Experience</a></li>
+          <li className="me-3"><a href="/contact">Contact</a></li>
         </ul>
  
       </div>

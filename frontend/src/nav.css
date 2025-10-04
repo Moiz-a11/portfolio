@@ -119,7 +119,6 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   font-family:Mock, same stuff ;  
     color: #2C3E50;
 }
-
-/* .page-parent{
-    
-} */
+.contact-container{
+    color: white;
+}

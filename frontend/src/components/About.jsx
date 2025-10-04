@@ -14,7 +14,8 @@ function About(){
             </div>
     
         <div className="about-parent" >
-        <div><h1>About Me</h1>
+        <div>
+            <h1>About Me</h1>
         </div>
         <div>
             <h3>Education</h3>
@@ -22,7 +23,8 @@ function About(){
         </div>
          <div>
         <h3>Tech Ethusiast</h3>
-        <p>Mearn  Stack Developer </p>
+        <p>I’m a passionate Full Stack Web Developer with experience in building dynamic and responsive web applications using the MERN stack </p>
+        <p>(MongoDB, Express.js, React.js, and Node.js). I enjoy turning ideas into functional and user-friendly digital solutions.</p>
         <p>More Intrested In backend Development</p>
         <p>Learning AI And ML</p>
 
@@ -30,7 +32,9 @@ function About(){
        
 
         </div>
+
         </div>
+        
     )
 }
 

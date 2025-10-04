@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "./components/hero";
+
 import './App.css';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import PageNotFound from "./components/PageNotFound";
+import Contact from "./components/Contact"
 import RoboWidget from "./components/Robowidget";
 import { Route, Routes } from "react-router-dom";
 import "./robo.css";
@@ -57,62 +57,17 @@ function App() {
      
         <Routes>
           <Route path="*" element={<PageNotFound />} />
-         <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Experience />} />
+
           <Route path="/projects" element={<Projects />} /> 
+          <Route  path="/contact" element={<Contact/>}/>
         </Routes>
       </div>
 
-      <About />
-      <Experience />
-      <Projects />
     </>
   );
 }
 
 export default App;
-
-// import Hero from "./components/hero"
-// import './App.css'
-// import Navbar from "./components/Navbar"
-// import Home from "./components/Home"
-// import About from "./components/About"
-// import Experience from "./components/Experience"
-// import Projects from "./components/Projects"
-// import PageNotFound from "./components/PageNotFound"
-// import RoboWidget from "./components/Robowidget"
-// //import Robo from "./components/robo"
-// import { Route, Routes } from "react-router-dom"
-// import "./nav.css"
-// import "./robo.css";
-
-
-// function App() {
-
-//   return (
-// <>
-//      <Navbar/> 
-//     {/* < RoboWidget/> */}
-
-//    <div style={{ backgroundColor: "#121212", minHeight: "100vh" }}>
-//       {/* All your routes and components here */}
-    
-      
-// <Routes>
-//   <Route path="*" element={<PageNotFound/>}></Route>
-//   <Route path="/home" element= {<Home/> }></Route>
-//   <Route path="/about" element={<About/>}></Route>
-//   <Route path="/experience" element={<Experience/>} ></Route>
-//   <Route path="/projects" element={<Projects/>} ></Route>
-// </Routes>
-//     </div>
-
-    
-//   </>
-//   )
-
-// }
-
-// export default App
