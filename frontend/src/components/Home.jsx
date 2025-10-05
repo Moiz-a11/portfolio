@@ -4,11 +4,15 @@ import React from "react"
 
 function Home(){
     return(
-        <>
-        <div>welcome on home page</div>
+        <div className="d-flex flex-column align-items-center justify-content-center" > 
+    <h2>Crafting digital experiences with passion and precision. Specializing in modern web technologies and innovative design solutions.</h2>
 
-        <button className="btn btn-dark" >Get In Touch</button>
-        </> 
+<div>
+<button className="btn btn-dark" >Get In Touch</button>
+        <button className="btn btn-dark ms-5"  >View My Work</button>
+</div>
+        
+        </div> 
     )
 }
 

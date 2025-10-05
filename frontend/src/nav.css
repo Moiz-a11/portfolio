@@ -120,5 +120,30 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #2C3E50;
 }
 .contact-container{
+    padding: 200px !important;
+    gap: 100px !important;
     color: white;
+}
+
+/* .card i:hover{
+transform: scale(1.08);
+} */
+
+.socials{
+    background-color: blue !important;
+    height: 20rem !important; 
+width: 25rem !important; 
+color: black !important;
+transform: scale(1.08);
+border-radius: 5rem !important;
+}
+
+.socials-child:hover{
+    transform: scale(1.08);
+
+}
+.contact-child{
+ 
+height:5rem;
+width: 100%;
 }
