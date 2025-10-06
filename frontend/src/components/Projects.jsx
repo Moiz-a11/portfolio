@@ -54,7 +54,7 @@ function Projects() {
               tasks
             </p>
             <div className=" tools d-flex align-items-center justify-content-around  ">
-              <p>Bootstrap</p>
+              <p >Bootstrap</p>
               <p>javascript</p>
               <p>Node</p>
               <p>Express</p>

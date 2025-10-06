@@ -94,12 +94,13 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 .tools{
     color: rgb(22, 201, 255);
    
+   
 }
 
 .tools p{
  padding: 7px;
  border-radius: 30%;
-     border: 1px solid black;
+     border: 1px solid rgb(10, 236, 157);
 }
 
 .img{
@@ -188,4 +189,22 @@ textarea{
 textarea:focus {
   outline: none;
   box-shadow: 2px 2px 10px red;
+  border: none;
+}
+
+input:focus{
+    box-shadow: 2px 2px 10px red;
+}
+
+/* .about-parent{
+    font-family: 'Manrope', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+
+/* for google font */
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
