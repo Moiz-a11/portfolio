@@ -4,7 +4,8 @@ import React from "react"
 
 function Home(){
     return(
-        <div className="d-flex flex-column align-items-center justify-content-center" > 
+    
+                <div className="d-flex flex-column align-items-center justify-content-center" > 
     <h2>Crafting digital experiences with passion and precision. Specializing in modern web technologies and innovative design solutions.</h2>
 
 <div>
@@ -13,6 +14,8 @@ function Home(){
 </div>
         
         </div> 
+        
+
     )
 }
 
