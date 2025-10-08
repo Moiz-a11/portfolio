@@ -1,4 +1,4 @@
-.contact-container {
+/* .contact-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,7 +121,7 @@
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .contact-container {
     padding: 1rem;
   }
@@ -135,4 +135,23 @@
   .form-title {
     font-size: 2rem;
   }
+} */ 
+
+.drop-msg-container{
+  height: 30rem !important;
+  width: 30rem !important;
+border: 2px solid springgreen !important;
+
 }
+
+.lable-input-container{
+  height: 100px!important;
+  width: 100% !important;
+ 
+
+}
+ 
+ .lable-input-container input{
+  height: 2.5rem;
+  width: 80%;
+ } 
