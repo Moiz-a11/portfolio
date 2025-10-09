@@ -40,12 +40,29 @@ import React from "react"
 function About(){
     return(
         <div className="about-main-parent d-flex align-items-center justify-content-around vh-100 ">
+
+            {/* IMAGE  */}
             <div className="img-container">
                 <img className="rounded img mt-5  mx-auto d-block " src="./images/its_me.jpg" alt="" />
             </div>
+            
+              {/* Vertical separator line with glowing effect for dark background */}
+            <div 
+                className="vr mt-5 mx-4 d-none d-md-block" 
+                style={{
+                    width: '3px',
+                    height: '70%',
+                    background: 'linear-gradient(to bottom, #ff6b6b, #4ecdc4, #45b7d1)',
+                    borderRadius: '10px',
+                    boxShadow: '0 0 15px rgba(78, 205, 196, 0.5)',
+                    opacity: '0.8'
+                }}
+            ></div>
     
         <div className="about-parent" >
         <div className="about-child-1" >
+
+            {/* About me */}
             <h1    style={{fontFamily: '"Akaya Kanadaka", system-ui', fontWeight: 400}}>About Me</h1>
         </div>
        

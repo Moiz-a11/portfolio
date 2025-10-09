@@ -155,7 +155,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .contact-content {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -169,4 +169,17 @@
     flex-direction: column;
     align-items: center;
   }
+}  */
+
+/* .drop-msg-container {
+  height: 35rem !important;
+  width: 35rem !important;
+  border: 2px solid rgb(145, 5, 33) !important;
+} */
+
+
+
+/* .lable-input-container input {
+  height: 2.5rem;
+  width: 80%;
 } */
