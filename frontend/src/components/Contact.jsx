@@ -90,34 +90,48 @@ function Contact() {
         </div>
       </div>
 
-     
-      
-        <h2 className="form-title offset-5" style={{ color: "white" }}>
-          Drop Massege{" "}
-        </h2>
+      <form action="">
+        <h2 className="form-title  msg-title ">Drop Massege </h2>
 
-                         {/*   Drop Massege  */}
-        <div className="drop-msg-container d-flex flex-column align-items-center justify-content-center ">
-  
+        {/*   Drop Massege container  */}
 
-  <div className="lable-input-container">
-    <label className="mb-2 form-label" htmlFor="name">Name</label>
-    <input name="name" type="text" placeholder="name" />
-  </div>
+        <div className="drop-msg-container d-flex flex-column align-items-center justify-content-center offset-4">
+          <div className="lable-input-container d-flex flex-column align-items-center justify-content-center">
+            <label className="mb-2 ms-2 form-label " htmlFor="name">
+              Name
+            </label>
+            <input name="name" type="text" placeholder="name" />
+          </div>
 
-  <div className="lable-input-container">
-    <label className="mb-2 form-label" htmlFor="email">Email</label>
-    <input name="email" className="mb-2" type="email" placeholder="email" />
-  </div>
+          <div className="lable-input-container   d-flex flex-column align-items-center justify-content-center ">
+            <label className="mb-2 mt-5 form-label" htmlFor="email">
+              Email
+            </label>
+            <br />
+            <input
+              name="email"
+              className="mb-2"
+              type="email"
+              placeholder="email"
+            />
+          </div>
 
-  <label className="mb-2" htmlFor="msg">Message</label>
-  <textarea name="msg" rows="4" cols="30"></textarea>
+          <div className="msg-area mt-5">
+            <label className="mb-2" htmlFor="msg">
+              Message
+            </label>{" "}
+            <br />
+            <textarea
+              placeholder="your message......"
+              name="msg"
+              rows="8"
+              cols="50"
+            ></textarea>
+          </div>
+        </div>
 
-  
-</div>
-
-      
-      <button className="btn btn-primary">Send Massege</button>
+        <button className="btn  btn-primary offset-5 mt-3">Send Massege</button>
+      </form>
     </>
   );
 }

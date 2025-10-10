@@ -137,21 +137,43 @@
   }
 } */ 
 
-.drop-msg-container{
+ .drop-msg-container{
+
+   background-color:gray;
   height: 30rem !important;
   width: 30rem !important;
 border: 2px solid springgreen !important;
 
 }
+.lable-input-container {
+  color: white;
+  height: 5rem;
+  width: 100%;
+ }   
 
-.lable-input-container{
-  height: 100px!important;
-  width: 100% !important;
+.lable-input-container input{
+  height: 2.8rem !important;
+  width:  25vw !important;
  
 
 }
  
- .lable-input-container input{
-  height: 2.5rem;
-  width: 80%;
- } 
+.msg-title{
+   
+  font-family: 'Akaya Kanadaka', cursive;
+  font-weight: 400;
+   color: #4a4a4a; 
+  
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+   background: linear-gradient(45deg, #6c63ff, #ff6584); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+ 
+.msg-area{
+  color: white;
+}
