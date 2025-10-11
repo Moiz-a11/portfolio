@@ -1,10 +1,14 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
+import {useForm} from "react-hook-form"
 import React from "react";
 import "./Contact.css";
 function Contact() {
+   const {register , handleSubmit, formState :{errors,isSubmitting}} =  useForm();
+   
   return (
+    
     <>
+   
       <div className="contact-container d-flex  align-items-center justify-content-center ">
         <div className=" card d-flex flex-column align-items-center justify-content-center socials ">
           {/* Reach Me */}
