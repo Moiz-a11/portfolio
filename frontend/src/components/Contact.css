@@ -140,11 +140,20 @@
  .drop-msg-container{
 
    background-color:gray;
-  height: 30rem !important;
+  height: 40rem !important;
   width: 30rem !important;
 border: 2px solid springgreen !important;
+border-radius: 2rem  ;
 
 }
+
+ .drop-msg-container:hover{
+  transform: translate(-5px) ;
+   box-shadow: 0 20px 45px rgba(255, 65, 65, 0.15);
+
+ }
+
+
 .lable-input-container {
   color: white;
   height: 5rem;

@@ -120,6 +120,19 @@ function Contact() {
             />
           </div>
 
+           <div className="lable-input-container   d-flex flex-column align-items-center justify-content-center mt-5 ">
+            <label className="mb-2 mt-5 form-label" htmlFor="email">
+              Subject
+            </label>
+            <br />
+            <input
+              name="subject"
+              className="mb-2"
+              type="text"
+              placeholder="Subject"
+            />
+          </div>
+
           <div className="msg-area mt-5">
             <label className="mb-2" htmlFor="msg">
               Message
@@ -127,9 +140,9 @@ function Contact() {
             <br />
             <textarea
               placeholder="your message......"
-              name="msg"
+              name="message"
               rows="8"
-              cols="50"
+              cols="50"   
             ></textarea>
           </div>
         </div>
