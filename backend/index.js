@@ -14,4 +14,3 @@ app.listen(port,(req,res)=>{
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
-

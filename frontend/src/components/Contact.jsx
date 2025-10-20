@@ -4,11 +4,23 @@ import React from "react";
 import "./Contact.css";
 function Contact() {
    const {register , handleSubmit, formState :{errors,isSubmitting}} =  useForm();
+
+
+   const handleForm =async(e)=>{
+    
+try{
+
+} catch(error){
+
+}
+
+   }
    
   return (
     
     <>
    
+
       <div className="contact-container d-flex  align-items-center justify-content-center ">
         <div className=" card d-flex flex-column align-items-center justify-content-center socials ">
           {/* Reach Me */}
@@ -94,17 +106,22 @@ function Contact() {
         </div>
       </div>
 
-      <form action="">
+      
         <h2 className="form-title  msg-title ">Drop Massege </h2>
 
         {/*   Drop Massege container  */}
+        
 
         <div className="drop-msg-container d-flex flex-column align-items-center justify-content-center offset-4">
+
+          <form onSubmit={handleSubmit} action="">
+
           <div className="lable-input-container d-flex flex-column align-items-center justify-content-center">
+
             <label className="mb-2 ms-2 form-label " htmlFor="name">
               Name
             </label>
-            <input name="name" type="text" placeholder="name" />
+            <input  type="text" value={name} placeholder="name" />
           </div>
 
           <div className="lable-input-container   d-flex flex-column align-items-center justify-content-center ">
@@ -113,10 +130,11 @@ function Contact() {
             </label>
             <br />
             <input
-              name="email"
+            
               className="mb-2"
               type="email"
               placeholder="email"
+              value={email}
             />
           </div>
 
@@ -125,11 +143,12 @@ function Contact() {
               Subject
             </label>
             <br />
+
             <input
-              name="subject"
               className="mb-2"
               type="text"
               placeholder="Subject"
+              value={subject}
             />
           </div>
 
@@ -143,112 +162,20 @@ function Contact() {
               name="message"
               rows="8"
               cols="50"   
+              value={message}
             ></textarea>
+            
           </div>
+
+          </form>
+
         </div>
 
         <button className="btn  btn-primary offset-5 mt-3">Send Massege</button>
-      </form>
+      
     </>
   );
 }
 
 export default Contact;
 
-// import { useState } from 'react';
-// import './Contact.css';
-
-// const Contact = () => {
-//   const [formData, setFormData] = useState({
-//     name: '',
-//     email: '',
-//     message: ''
-//   });
-//   const [isSubmitted, setIsSubmitted] = useState(false);
-
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setFormData(prevState => ({
-//       ...prevState,
-//       [name]: value
-//     }));
-//   };
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     // Here you would typically send the data to your backend
-//     console.log('Form submitted:', formData);
-//     setIsSubmitted(true);
-
-//     // Reset form after 3 seconds
-//     setTimeout(() => {
-//       setIsSubmitted(false);
-//       setFormData({ name: '', email: '', message: '' });
-//     }, 3000);
-//   };
-
-//   return (
-//     <div className="contact-container">
-//       <div className="drop-msg-container card d-flex flex-column align-items-center justify-content-center">
-//         <h2 className="form-title">Drop a Message</h2>
-
-//         {isSubmitted ? (
-//           <div className="success-message">
-//             <div className="success-icon">✓</div>
-//             <p>Thank you! Your message has been sent successfully.</p>
-//           </div>
-//         ) : (
-//           <form onSubmit={handleSubmit} className="contact-form w-100">
-//             <div className="form-group">
-//               <label className="form-label" htmlFor="name">Name:</label>
-//               <input
-//                 type="text"
-//                 id="name"
-//                 name="name"
-//                 className="form-control"
-//                 placeholder="Your name"
-//                 value={formData.name}
-//                 onChange={handleChange}
-//                 required
-//               />
-//             </div>
-
-//             <div className="form-group">
-//               <label className="form-label" htmlFor="email">Email:</label>
-//               <input
-//                 type="email"
-//                 id="email"
-//                 name="email"
-//                 className="form-control"
-//                 placeholder="Your email"
-//                 value={formData.email}
-//                 onChange={handleChange}
-//                 required
-//               />
-//             </div>
-
-//             <div className="form-group">
-//               <label className="form-label" htmlFor="message">Message:</label>
-//               <textarea
-//                 id="message"
-//                 name="message"
-//                 className="form-control"
-//                 rows="4"
-//                 placeholder="Your message"
-//                 value={formData.message}
-//                 onChange={handleChange}
-//                 required
-//               ></textarea>
-//             </div>
-
-//             <div className="text-center mt-3">
-//               <button type="submit" className="submit-btn">Send Message</button>
-//             </div>
-//           </form>
-//         )}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Contact;
