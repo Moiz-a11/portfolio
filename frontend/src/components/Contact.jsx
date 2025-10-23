@@ -2,8 +2,15 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import {useForm} from "react-hook-form"
 import React from "react";
 import "./Contact.css";
+import { useState } from "react";
+
 function Contact() {
-   const {register , handleSubmit, formState :{errors,isSubmitting}} =  useForm();
+   const {register , handleSubmit, formState :{errors,isSubmitting}} =  useForm(); 
+
+const [name , setName] = useState("");
+const [email , setEmail] = useState("");
+const [subject, setSubject] = useState("");
+const [message , setMessage] = useState("");
 
 
    const handleForm =async(e)=>{
